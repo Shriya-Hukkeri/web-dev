@@ -1,0 +1,240 @@
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-thin-border {
+    border-width: 1px 1px 1px 1px;
+}
+
+.wd-solid {
+    border-style: solid;
+}
+
+.wd-grey-border {
+    border-color: grey;
+}
+
+.wd-left-offset {
+    margin-left: 16px;
+}
+
+.wd-border-rounded {
+    border-radius: 10px;
+}
+
+.wd-bg-color-dark-gray {
+    background-color: darkgray;
+}
+
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-full-width {
+    width: 88%;
+    float: left;
+}
+
+.wd-settings-width {
+    margin-right: 12px;
+    float: right;
+}
+
+.wd-input-placeholder::placeholder {
+    color: white;
+}
+
+.wd-border-color {
+    color: rgb(47, 51, 54);
+}
+
+a.active {
+    font-size: 15px;
+    padding: 16px;
+    color: rgb(29, 161, 242);
+    display: inline-block;
+    border-bottom: solid 5px rgb(29, 161, 242);
+}
+
+.fa-ellipsis-h {
+    padding-right: 16px;
+    color: lightgray;
+    float: right;
+    position: relative;
+}
+
+.wd-other-link-design {
+    font-size: 15px;
+    padding: 16px;
+}
+
+.wd-inline-block {
+    display: inline-block;
+}
+
+a {
+    color: rgb(110, 118, 125);
+}
+
+.wd-new-line {
+    clear: both;
+}
+
+.wd-no-underline {
+    text-decoration: none;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+
+.wd-tabs {
+    display: flex;
+}
+
+.wd-horizontal-line-design {
+    background-color: #282c34;
+    width: 100%;
+    height: 10px;
+    margin-top: 0px
+}
+
+.wd-tweet-details-design {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-tweet-heading-design {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.wd-tweet-logo {
+    border-radius: 100px;
+    float: left;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 13px;
+    padding-right: 3px;
+}
+
+.wd-topic-design {
+    font-size: 13px;
+    color: white;
+}
+
+.wd-image-right {
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    float: right;
+    padding-right: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.wd-bookmarks-title-design {
+    font-size: 20px;
+    color: white;
+    left: 16px;
+    top: 12px;
+
+}
+
+.wd-handle-design {
+    color: lightgray;
+    font-size: 13px;
+    top: -18px;
+    position: relative;
+}
+
+.wd-circular-profile-image {
+    border-radius: 48px;
+    float: left;
+    left: 16px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+
+}
+
+.wd-author-design {
+    position: relative;
+    left: 30px;
+    top: 12px;
+    font-size: 15px;
+    color: white;
+}
+
+.wd-author-handle-design {
+    font-size: 15px;
+    color: lightgray;
+}
+
+.wd-main-content {
+    left: 30px;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    width: 506px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+
+}
+
+.wd-bookmark-image{
+    height: 264px;
+    width: 504px;
+    object-fit: fill;
+    padding-left: 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.wd-title-design{
+    color: white;
+    top: 12px;
+    font-size: 15px;
+    padding: 12px;
+    width: 506px;
+}
+
+.wd-content-design{
+    color: lightgray;
+    top:-20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom: 1px solid gray;
+    width: 506px;
+}
+
+.fa-comment{
+    color: lightgray;
+}
+
+.fa-retweet{
+    padding: 12px;
+    padding-left: 90px;
+    color: lightgray;
+}
+
+.fa-heart{
+    padding: 12px;
+    padding-left: 90px;
+    color: red;
+}
+
+.fa-share{
+    padding: 12px;
+    padding-left: 90px;
+    color: lightgray;
+}
+
+.wd-icon-numbers-design{
+    color: lightgray;
+}
