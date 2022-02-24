@@ -1,0 +1,60 @@
+.wd-tweet-search-button{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.wd-padding-top{
+    padding-top: 4px;
+}
+
+::placeholder{
+    padding-left: 40px;
+}
+
+.wd-card-image-design{
+    /*bottom: 65px;*/
+    /*font-weight: bold;*/
+    /*left: -10px;*/
+    /*color: white;*/
+
+    bottom: 48px;
+    font-weight: bold;
+    left: 6px;
+    color: white;
+}
+
+.wd-card-title{
+    margin-top: -44px;
+    margin-left: 12px;
+
+}
+
+.wd-web-dev-design{
+    color: lightslategrey
+}
+
+.wd-bold_font{
+    font-weight: bold
+}
+
+.wd-normal-font{
+    font-weight: normal;
+}
+
+.wd-check-margin{
+    margin-left: -10px;
+}
+
+.wd-timestamp-margin{
+    margin-left: -12px;
+}
+
+.wd-side-image{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.wd-follow-button{
+    border-radius: 30px;
+}

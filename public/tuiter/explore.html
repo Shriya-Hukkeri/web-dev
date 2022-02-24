@@ -2,98 +2,322 @@
 <html>
 <head>
 	<title>Explore</title>
-	<link href="design.css" rel="stylesheet"></link>
-	<script src="https://kit.fontawesome.com/2da2353c51.js" crossorigin="anonymous"></script>
+	<link href="explore.css" rel="stylesheet">
+	<link href="../vendors/bootstrap/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+	      rel="stylesheet">
+	<link href="./explore.css" rel="stylesheet">
 </head>
-<body class="wd-bg-color-black">
-<div class="wd-thin-border wd-solid wd-grey-border">
+<body>
+<div class="container">
+	<div class=" row mt-3 mb-5">
 
-	<div>
-		<input type="text" placeholder="Search Twitter"
-		       class="wd-input-placeholder wd-bg-color-dark-gray wd-border-rounded wd-fg-color-white wd-left-offset wd-full-width">
-		<a href="explore-settings.html"><img src="settings.png" class="wd-settings-width"></a>
-	</div>
-	<div class="wd-tabs wd-new-line">
-		<div>
-			<a class="wd-no-underline active" href="#">For you</a>
+		<!--		FIRST COLUMN DESIGN START-->
+		<div class="col-2 col-lg-1 col-xl-2">
+			<div class="list-group">
+				<a class="list-group-item" href="#"><i class="fab fa-twitter"></i></a>
+				<a class="list-group-item" href="#"><i class="fas fa-home me-1"></i><span
+						class="d-none d-xl-inline-block">Home</span></a>
+				<a class="list-group-item active" href="#"><i class="fas fa-hashtag me-2"></i><span
+						class="d-none d-xl-inline-block">Explore</span></a>
+				<a class="list-group-item" href="#"><i class="fas fa-bell me-2"></i><span
+						class="d-none d-xl-inline-block">Notifications</span></a>
+				<a class="list-group-item" href="#"><i class="fas fa-envelope me-2"></i><span
+						class="d-none d-xl-inline-block">Messages</span></a>
+				<a class="list-group-item" href="#"><i class="fas fa-bookmark me-2"></i><span
+						class="d-none d-xl-inline-block">Bookmarks</span></a>
+				<a class="list-group-item" href="#"><i class="fas fa-list me-2"></i><span
+						class="d-none d-xl-inline-block">Lists</span></a>
+				<a class="list-group-item" href="#"><i class="fas fa-user me-2"></i><span
+						class="d-none d-xl-inline-block">Profile</span></a>
+				<a class="list-group-item" href="#">
+					<span style="margin-left: -12px" class="fa-stack fa-1x">
+                        <i class="fas fa-circle fa-stack-1x"></i>
+                        <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
+				</span>
+					<span style="margin-left: -8px" class="d-none d-xl-inline-block">More</span>
+				</a>
+			</div>
+			<button class="mt-2 btn wd-tweet-search-button btn-primary ">Tweet</button>
 		</div>
-		<div class="wd-other-link-design wd-inline-block">
-			<a class="wd-no-underline" href="#">Trending</a>
-		</div>
-		<div class="wd-other-link-design wd-inline-block">
-			<a class="wd-no-underline" href="#">Covid-19</a>
-		</div>
-		<div class="wd-other-link-design wd-inline-block">
-			<a class="wd-no-underline" href="#">News</a>
-		</div>
-		<div class="wd-other-link-design wd-inline-block">
-			<a class="wd-no-underline" href="#">Sports</a>
-		</div>
-		<div class="wd-other-link-design wd-inline-block">
-			<a class="wd-no-underline" href="#">Entertainment</a>
-		</div>
-	</div>
+		<!--FIRST COLUMN DESIGN END-->
 
-	<hr class="wd-horizontal-line-design">
+		<!--SECOND COLUMN DESIGN START-->
 
-	<div class="wd-thin-border wd-solid wd-grey-border">
-		<div class="wd-left-offset">
-			<a style="float: right; margin-right: 12px" href="#"><i
-					class="fas fa-ellipsis-h"></i></a>
-			<p class="wd-tweet-details-design">Trending in Science</p>
-			<p class="wd-tweet-heading-design">Starship</p>
-			<p class="wd-tweet-details-design">55.5K Tweets</p>
-		</div>
-	</div>
+		<div class="col-10 col-lg-7 col-xl-6">
 
-	<div class="wd-thin-border wd-solid wd-grey-border">
-		<div class="wd-left-offset">
-			<a style="float: right; margin-right: 12px" href="#"><i
-					class="fas fa-ellipsis-h"></i></a>
-			<p class="wd-tweet-details-design">Sports &middot; Trending</p>
-			<p class="wd-tweet-heading-design">Joe Rogan</p>
-			<p class="wd-tweet-details-design">5,218 Tweets</p>
-		</div>
-	</div>
+			<!--SEARCH INPUT AND GEAR ICON START-->
 
-	<div style="height: 115px" class="wd-thin-border wd-solid wd-grey-border">
-		<div class="wd-left-offset">
-			<img class="wd-tweet-logo" src="Times_logo.png"/>
-			<p class="wd-topic-design wd-inline-block">The New York Times </p>
-			<p class="wd-tweet-details-design wd-inline-block">&middot; Yesterday</p><i
-				class="fas fa-check"></i>
-			<img class="wd-image-right" src="cnn-news.jpg"/>
-			<p class="wd-tweet-heading-design">CNN's Cuomo conundrum: A star anchor with a brother
-			                                   in trouble</p>
-		</div>
-	</div>
+			<div class="row">
+				<div class="col-11">
+					<i class="fa fa-search mt-2 ms-3 wd-padding-top" style="position: absolute"></i>
+					<div><input class="form-control wd-tweet-search-button" type="text"
+					            placeholder="Search twitter"></div>
+				</div>
+				<div class="col-1">
+					<i class="fas fa-cog fa-2x mt-1" style="color: dodgerblue"></i>
+				</div>
+			</div>
+			<!--SEARCH INPUT AND GEAR ICON END-->
 
-	<div style="height: 115px" class="wd-thin-border wd-solid wd-grey-border">
-		<div class="wd-left-offset">
-			<img class="wd-image-right" src="mass.jpg"/>
-			<p class="wd-tweet-details-design wd-inline-block">COVID-19 &middot; LIVE</p>
-			<p class="wd-tweet-heading-design">COVID-19: NEWS and updates for Massachusetts</p>
-		</div>
-	</div>
+			<!--TABS START-->
 
-	<div style="height: 115px" class="wd-thin-border wd-solid wd-grey-border">
-		<div class="wd-left-offset">
-			<img class="wd-tweet-logo" src="bloomberg.jpg"/>
-			<p class="wd-topic-design wd-inline-block">Bloomberg Opinion </p>
-			<p class="wd-tweet-details-design wd-inline-block">&middot; Yesterday</p><i
-				class="fas fa-check"></i>
-			<img class="wd-image-right" src="booster.jpg"/>
-			<p class="wd-tweet-heading-design">Thinking about getting a booster? Read this
-			                                   first.</p>
-		</div>
-	</div>
+			<div>
+				<ul class="nav nav-tabs mt-1">
+					<li class="nav-item">
+						<a class="nav-link active" href="#">For You</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Trending</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">News</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Sports</a>
+					</li>
+					<li class="nav-item d-none d-md-block">
+						<a class="nav-link" href="#">Entertainment</a>
+					</li>
+				</ul>
+			</div>
 
-	<div style="height: 115px" class="wd-thin-border wd-solid wd-grey-border">
-		<div class="wd-left-offset">
-			<img class="wd-image-right" src="winter-olympics.png"/>
-			<p class="wd-tweet-details-design wd-inline-block">Beijing 2022 &middot; LIVE</p>
-			<p class="wd-tweet-heading-design">Beijing 2022: The United States at the Olympic Winter Games</p>
+			<!--TABS END-->
+
+			<!--IMAGE START-->
+
+			<div class="card" style="width: 100%">
+				<img src="images/spaceX.jpg" class="card-img-top" alt="...">
+				<div style="margin-bottom: -47px">
+					<h2 class="wd-card-image-design" style="position: relative">SpaceX's
+					                                                            Starship</h2>
+				</div>
+			</div>
+
+			<!--IMAGE END-->
+
+			<ul class="list-group">
+				<li class="list-group-item">
+					<div class="row">
+						<div class="col-10">
+							<div class="wd-web-dev-design">Web Development</div>
+							<div class="wd-bold_font">ReactJS
+								<span class="fa-stack wd-check-margin">
+									<i class="fas fa-circle fa-stack-1x fa-sm"></i>
+									<i class="fas fa-check fa-stack-1x fa-xs fa-inverse"></i>
+								</span>
+								<span class="wd-normal-font wd-timestamp-margin">&#8211; 2h</span>
+							</div>
+							<div class="wd-bold_font">
+								React.js is a component based front end library that makes it very
+								easy to build Single Page Applications or SPAs
+							</div>
+						</div>
+						<div class="col-2">
+							<img src="images/reactJs.jpg" class="wd-side-image">
+						</div>
+					</div>
+				</li>
+
+				<li class="list-group-item">
+					<div class="row">
+						<div class="col-10">
+							<div class="wd-bold_font">JavaScript
+								<span class="fa-stack wd-check-margin">
+									<i class="fas fa-circle fa-stack-1x fa-sm"></i>
+									<i class="fas fa-check fa-stack-1x fa-xs fa-inverse"></i>
+								</span>
+								<span class="wd-normal-font wd-timestamp-margin">&#8211; 2h</span>
+							</div>
+							<div class="wd-bold_font">
+								JavaScript is programming language that can run on browsers as well
+								as desktops
+							</div>
+							<div class="wd-web-dev-design">123K Tweets</div>
+						</div>
+						<div class="col-2">
+							<img src="images/JS.png" class="wd-side-image">
+						</div>
+					</div>
+				</li>
+
+				<li class="list-group-item">
+					<div class="row">
+						<div class="col-10">
+							<div class="wd-web-dev-design">Web Development</div>
+							<div class="wd-bold_font">
+								jQuery
+							</div>
+							<div class="wd-web-dev-design">123K Tweets</div>
+						</div>
+						<div class="col-2">
+							<img src="images/jquery.png" class="wd-side-image">
+						</div>
+					</div>
+				</li>
+
+				<li class="list-group-item">
+					<div class="row">
+						<div class="col-10">
+							<div class="wd-web-dev-design">Web Development</div>
+							<div class="wd-bold_font">NodeJS
+								<span class="fa-stack wd-check-margin">
+									<i class="fas fa-circle fa-stack-1x fa-sm"></i>
+									<i class="fas fa-check fa-stack-1x fa-xs fa-inverse"></i>
+								</span>
+								<span class="wd-normal-font wd-timestamp-margin">&#8211; 2h</span>
+							</div>
+							<div class="wd-web-dev-design">123K Tweets</div>
+						</div>
+						<div class="col-2">
+							<img src="images/nodeJs.png" class="wd-side-image">
+						</div>
+					</div>
+				</li>
+
+
+			</ul>
+
 		</div>
+
+		<!--SECOND COLUMN DESIGN END-->
+
+		<!--THIRD COLUMN DESIGN START-->
+
+
+		<div class="d-none d-lg-block col-lg-3 col-xl-4">
+			<ul class="list-group">
+				<li class="list-group-item wd-bold_font">
+					Who to follow
+				</li>
+
+				<li class="list-group-item">
+					<div class="row">
+						<div class="col-3 col-xl-3 col-lg-2">
+							<img src="images/java.png" class="wd-side-image">
+						</div>
+
+						<div class="col-7 col-lg-6 col-xl-6 wd-check-margin">
+							<div class="wd-bold_font">Java
+								<span class="fa-stack wd-check-margin">
+									<i class="fas fa-circle fa-stack-1x fa-sm"></i>
+									<i class="fas fa-check fa-stack-1x fa-xs fa-inverse"></i>
+								</span>
+							</div>
+							<div class="wd-normal-font" style="margin-top: -5px">@Java</div>
+						</div>
+
+						<div class="col-2 col-xl-3 col-lg-4">
+							<button class="btn btn-primary wd-follow-button">Follow</button>
+						</div>
+
+					</div>
+
+				</li>
+
+				<li class="list-group-item">
+					<div class="row">
+						<div class="col-3 col-xl-3 col-lg-2">
+							<img src="images/RelativitySpace.jpg" class="wd-side-image">
+						</div>
+
+						<div class="col-7 col-lg-6 col-xl-6 wd-check-margin">
+							<div class="wd-bold_font">Relativity Space
+								<span class="fa-stack wd-check-margin">
+									<i class="fas fa-circle fa-stack-1x fa-sm"></i>
+									<i class="fas fa-check fa-stack-1x fa-xs fa-inverse"></i>
+								</span>
+							</div>
+							<div class="wd-normal-font" style="margin-top: -5px">@relativityspace</div>
+						</div>
+
+						<div class="col-2 col-xl-3 col-lg-4">
+							<button class="btn btn-primary wd-follow-button">Follow</button>
+						</div>
+
+					</div>
+
+				</li>
+
+				<li class="list-group-item">
+					<div class="row">
+						<div class="col-3 col-xl-3 col-lg-2">
+							<img src="images/Virgin.png" class="wd-side-image">
+						</div>
+
+						<div class="col-7 col-lg-6 col-xl-6 wd-check-margin">
+							<div class="wd-bold_font">Virgin galactic
+								<span class="fa-stack wd-check-margin">
+									<i class="fas fa-circle fa-stack-1x fa-sm"></i>
+									<i class="fas fa-check fa-stack-1x fa-xs fa-inverse"></i>
+								</span>
+							</div>
+							<div class="wd-normal-font" style="margin-top: -5px">@virgingalactic</div>
+						</div>
+
+						<div class="col-2 col-xl-3 col-lg-4">
+							<button class="btn btn-primary wd-follow-button">Follow</button>
+						</div>
+
+					</div>
+
+				</li>
+
+				<li class="list-group-item">
+					<div class="row">
+						<div class="col-3 col-xl-3 col-lg-2">
+							<img src="images/Nasa.png" class="wd-side-image">
+						</div>
+
+						<div class="col-7 col-lg-6 col-xl-6 wd-check-margin">
+							<div class="wd-bold_font">NASA
+								<span class="fa-stack wd-check-margin">
+									<i class="fas fa-circle fa-stack-1x fa-sm"></i>
+									<i class="fas fa-check fa-stack-1x fa-xs fa-inverse"></i>
+								</span>
+							</div>
+							<div class="wd-normal-font" style="margin-top: -5px">@NASA</div>
+						</div>
+
+						<div class="col-2 col-xl-3 col-lg-4">
+							<button class="btn btn-primary wd-follow-button">Follow</button>
+						</div>
+
+					</div>
+
+				</li>
+
+				<li class="list-group-item">
+					<div class="row">
+						<div class="col-3 col-xl-3 col-lg-2">
+							<img src="images/tesla.jpg" class="wd-side-image">
+						</div>
+
+						<div class="col-7 col-lg-6 col-xl-6 wd-check-margin">
+							<div class="wd-bold_font">Tesla
+								<span class="fa-stack wd-check-margin">
+									<i class="fas fa-circle fa-stack-1x fa-sm"></i>
+									<i class="fas fa-check fa-stack-1x fa-xs fa-inverse"></i>
+								</span>
+							</div>
+							<div class="wd-normal-font" style="margin-top: -5px">@tesla</div>
+						</div>
+
+						<div class="col-2 col-xl-3 col-lg-4">
+							<button class="btn btn-primary wd-follow-button">Follow</button>
+						</div>
+
+					</div>
+
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!--THIRD COLUMN DESIGN END-->
+
+
 	</div>
 
 
