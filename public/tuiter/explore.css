@@ -58,3 +58,116 @@
 .wd-follow-button{
     border-radius: 30px;
 }
+
+.wd-padding-top {
+    padding-top: 4px;
+}
+
+::placeholder {
+    padding-left: 40px;
+}
+
+.wd-spaceX-image-design {
+    /*bottom: 65px;*/
+    /*font-weight: bold;*/
+    /*left: -10px;*/
+    /*color: white;*/
+
+    /*bottom: 48px;*/
+    /*font-weight: bold;*/
+    /*left: 6px;*/
+    /*color: white;*/
+
+    position: absolute;
+    bottom:8px;
+    left:16px;
+    color:white;
+    font-size:50px;
+    font-weight: bold;
+}
+
+
+.wd-card-title {
+    margin-top: -44px;
+    margin-left: 12px;
+
+}
+
+.wd-web-dev-design {
+    color: lightslategrey
+}
+
+.wd-bold_font {
+    font-weight: bold
+}
+
+.wd-normal-font {
+    font-weight: normal;
+}
+
+.wd-check-margin {
+    margin-left: -10px;
+}
+
+.wd-timestamp-margin {
+    margin-left: -12px;
+}
+
+.wd-who-to-follow-image {
+    border-radius: 80px;
+    width: 100%;
+    height: auto;
+}
+
+/*.wd-follow-button {*/
+/*    border-radius: 30px;*/
+/*    color: black;*/
+/*    background-color: white;*/
+/*}*/
+
+/*.list-group {*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*}*/
+
+/*.list-group .list-group-item {*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*}*/
+
+.wd-active {
+    background-color: #2a9fd6;;
+}
+
+.wd-grey-font {
+    color: darkgray;
+}
+
+.search ::placeholder {
+    color: black;
+}
+
+.opacity .list-group-item {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.wd-ellipsis {
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+.wd-check-black-color {
+    color: black;
+}
+
+.wd-terms-of-service {
+    font-size: smaller;
+    color: darkgray;
+}
+
+.wd-border-style {
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: thin;
+}
+
