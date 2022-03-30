@@ -3,7 +3,7 @@ import React from "react";
 const WhoToFollowListItem = ({ who }) => {
     return (
         <>
-            <li className="list-group-item">
+            <li className="list-group-item bg-dark text-white">
                 <div className="row">
                     <div className="col-3 col-xl-3 col-lg-2">
                         <img src={who.avatarIcon} alt={""} className="wd-who-to-follow-image"/>

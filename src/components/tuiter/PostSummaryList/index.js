@@ -3,7 +3,7 @@ import posts from "./posts";
 
 const PostSummaryList = () => {
     return(
-            <ul className="list-group opacity">
+            <ul className="list-group bg-dark text-white">
             {
                  posts.map(post => <PostSummaryItem key={post.userName} posts={post} />)
             }

@@ -2,7 +2,7 @@ import React from "react";
 
 const PostSummaryItem = ({posts}) => {
     return (
-        <li className="list-group-item">
+        <li className="list-group-item bg-dark text-white">
             <div className="row">
                 <div className="col-10">
                     <div className="wd-web-dev-design">{posts.topic}</div>

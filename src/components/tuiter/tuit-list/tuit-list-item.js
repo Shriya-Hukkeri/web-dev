@@ -10,7 +10,7 @@ const TuitListItem = ({tuit}) => {
         dispatch({type: 'delete-tuit', tuit})
     }
     return(
-        <li className="list-group-item">
+        <li className="list-group-item bg-dark text-white">
             <table>
                 <tr>
                     <td className="align-text-top">

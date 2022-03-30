@@ -6,7 +6,7 @@ const TweetList = () => {
     const tuits = useSelector(
         state => state.tuits);
     return(
-        <ul className="list-group">
+        <ul className="list-group ">
             {
                 tuits.map(tuit =>
                     <TuitListItem tuit={tuit}/>

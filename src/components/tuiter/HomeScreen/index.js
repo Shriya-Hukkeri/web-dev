@@ -3,7 +3,7 @@ import WhatsHappening from "../whats-happening/WhatsHappening";
 
 const HomeScreen = () => {
     return(
-        <div className="opacity">
+        <div>
             <WhatsHappening/>
             <TuitList />
         </div>

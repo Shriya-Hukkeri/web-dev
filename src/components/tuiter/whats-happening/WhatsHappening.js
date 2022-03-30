@@ -14,7 +14,7 @@ const WhatsHappening = () => {
     }
     return (
         <>
-            <table style={{marginBottom: '16px'}}>
+            <table style={{marginBottom: '16px'}} className="text-white">
                 <tr>
                     <td style={{verticalAlign: 'top'}}>
                         <img src={"https://pbs.twimg.com/profile_images/1442634650703237120/mXIcYtIs_400x400.jpg"}
@@ -24,7 +24,7 @@ const WhatsHappening = () => {
                     <td style={{width: "100%"}}>
                         <textarea value={whatsHappening}
                                   onChange={(event) => setWhatsHappening(event.target.value)}
-                                  className="form-control"
+                                  className="form-control bg-dark text-white"
                                   style={{
                                       width: "100%", marginLeft: 18,
                                       marginTop: 10,
