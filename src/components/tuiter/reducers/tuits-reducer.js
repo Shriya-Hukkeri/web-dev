@@ -1,8 +1,10 @@
-import tuits from "../data/tuits.json";
+//import tuits from "../data/tuits.json";
 
 const tuitsReducer =
-    (state = tuits, action) => {
+    (state = [], action) => {
         switch (action.type) {
+            case 'FIND_ALL_TUITS':
+                return action.tuits;
             case 'create-tuit':
                 const newTuit = {
                     tuit: action.tuit,
@@ -40,7 +42,7 @@ const tuitsReducer =
                 });
 
             default:
-                return tuits
+                return state;
         }
     }
 
